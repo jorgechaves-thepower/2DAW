@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f6f4ef;
+    color: #222;
+}
+h1 { color: #7a3e12; }
+a { color: #7a3e12; }
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.barra input { width: 250px; }
+input, select, button { padding: 7px; font-size: 1em; }
+button, .boton {
+    background: #7a3e12;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+button.peligro { background: #b03a2e; padding: 5px 9px; }
+table { width: 100%; border-collapse: collapse; background: white; }
+th, td { padding: 8px; border-bottom: 1px solid #ddd; text-align: left; }
+th { background: #7a3e12; color: white; }
+.acciones { display: flex; gap: 10px; align-items: center; }
+.acciones form { margin: 0; }
+.ficha {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 450px;
+}
+.aviso { background: #e3f3e6; color: #1e6b33; padding: 10px; border-radius: 4px; }
+.error { color: #b03a2e; font-weight: bold; }
